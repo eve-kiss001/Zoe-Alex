@@ -1,0 +1,29 @@
+ 
+* {
+  box-sizing: border-box;
+}
+h1,h2,h3,ul,ol,p,img {
+    margin-bottom: 1.5rem;
+}
+body {
+    background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') repeat center;
+    font-family: 'Libre Baskerville', serif;
+    color: #444349;        
+}
+
+.locations, .program, .gifts, .faq, .contact {
+  width: 95%;
+  text-align: center;
+}
+h1, h2, {
+    font-family: 'Great Vibes', cursive;
+}
+a {
+  text-decoration: none;
+  color: #bd806e;
+}
+
+a:hover {
+  color: #eda087;
+  transition: color .15s ease-in-out;
+}
