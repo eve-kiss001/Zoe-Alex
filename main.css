@@ -81,10 +81,34 @@ a:hover {
   margin: 0 .5rem;
 }
 
+/*======L O C A T I O N S======*/
 
+h2 {
+    font-family: 'Great Vibes', cursive;
+}
 
+h3 {
+    font-family: 'Libre Baskerville', serif;
+}
 
+.blurb div {
+  font-family: 'Muli', sans-serif;
+}
 
+.blurb img {
+  height: 7.5rem;
+}
+blurb h3 {
+  font-weight: 700;
+}
+.blurb::after {
+  content: "";
+  display: block;
+  height: .1875rem;
+  width: 25vw;
+  margin: 1.5rem auto;
+  background-color: #444349;
+}
 
 
 
